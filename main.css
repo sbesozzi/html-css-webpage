@@ -1,0 +1,25 @@
+ul {
+ list-style-type: none;
+}
+
+
+img {
+  max-width: 100%
+}
+
+.main {
+
+}
+
+header{
+  display: inline-block;
+}
+
+.title-image {
+/*clip: rect(1px, 20000px, 425px, 1px); */
+background-image: url("background.jpg");
+height: 300px;
+
+}  
+
+
