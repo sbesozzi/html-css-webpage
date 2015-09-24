@@ -7,19 +7,17 @@ img {
   max-width: 100%
 }
 
-.main {
-
-}
-
-header{
+.header-link {
   display: inline-block;
+  text-decoration: none;
 }
-
+ 
 .title-image {
-/*clip: rect(1px, 20000px, 425px, 1px); */
 background-image: url("background.jpg");
-height: 300px;
-
+height: 400px;
+width: 60%;
+background-repeat: no-repeat;
+background-size: cover;
 }  
 
 
