@@ -40,12 +40,12 @@ header {
 .title-text { 
   padding-top: 160px;
   text-align: center;
-  color: white;
-
-  
-
-  
+  color: white; 
 }  
+
+.content {
+  text-align: center;
+}
 
 .plans {
   display: inline-block;
@@ -53,6 +53,7 @@ header {
   width: 100%;
   padding: 5px;
   margin: 2px;
+  
 }
 
 .plan {
