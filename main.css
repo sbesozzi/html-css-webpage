@@ -71,9 +71,6 @@ header {
   float: left
 }
 
-  
-  
-
 .plan-layers {
   
 
@@ -82,7 +79,19 @@ header {
 .plan-title {
   border: 1px solid grey;
 }
+
+.plan-title1 {
+  background-color: green;
+}
+
+.plan-title2 {
+  background-color: blue;
+}
   
+.plan-title3 {
+  background-color: black;
+
+}
 
 .plan-subtitle {
   border: 1px solid grey;
