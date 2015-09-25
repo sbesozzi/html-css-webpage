@@ -2,22 +2,71 @@ ul {
  list-style-type: none;
 }
 
-
-img {
-  max-width: 100%
+.main {
+  border: 1px black;
 }
 
-.header-link {
-  display: inline-block;
+.header-links {
   text-decoration: none;
+  font-size: 12;
+  display: inline-block;
+  
 }
  
 .title-image {
-background-image: url("background.jpg");
-height: 400px;
-width: 60%;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("background.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }  
 
+.plans {
+  display: inline-block;
+}
+
+.p1 {
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  background-color: green;
+  border: 1px solid white;
+  float: left;
+  margin: 5px;
+}
+
+.p2 {
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+  border: 1px solid white;
+  float: left;
+  margin: 5px;
+}
+
+.p3 {
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  background-color: black;
+  border: 1px solid white;
+  float: left;
+  margin: 5px;
+}
+
+.info {
+  padding: 10px;
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  float: left;
+  margin: 5px;
+}
+
+footer {
+  font-size: 12px;
+  font-color: white;
+
+}
 
