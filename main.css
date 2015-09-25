@@ -47,6 +47,7 @@ header {
   text-align: center;
 }
 
+
 .plans {
   display: inline-block;
   list-style: none;
@@ -100,11 +101,7 @@ header {
   height: 50px;
   padding: 5px;
   margin: 50px;
-  display: inline-block;
-
-
-
-  
+  display: inline-block; 
 }
 
 footer {
@@ -112,9 +109,13 @@ footer {
   height: 50px;
   margin: 2px;
   background-color: black;
+}
 
+.footer-text {
+  padding-top: 15px;
+  text-decoration: none;
   text-align: center;
-  font-style: 5px white;
+  color: grey;
 
 }
 
