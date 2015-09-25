@@ -10,27 +10,18 @@ ul {
 
 header {
   width: 100%;
-  height: 50px;
+  height: 30px;
   margin: 2px;
-  
-  border:1px solid black;
 
-}
-
-
-.header-text {
-  
-
-
-  
 }
 
 .header-text li {
   display: inline-block;
 
 }
+
 .header-text li a {
-  
+
   color: grey;
   text-decoration: none;
   
@@ -47,9 +38,9 @@ header {
 }
 
 .title-text { 
-  padding-top: 100px;
+  padding-top: 160px;
   text-align: center;
-  font-style: 10px white;
+  color: white;
 
   
 
