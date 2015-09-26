@@ -65,7 +65,7 @@ header {
 .plan {
   padding: 10px;
   width: 250px;
-  height: 250px;
+  height: 300px;
   margin: 5px;
   float: left
 }
@@ -75,17 +75,34 @@ header {
   font-color: white;
 }
 
+.plan-title1 h4 {
+  color: white;
+
+}s
+
+.plan-title h1 {
+
+} 
+
+.plan-title h3 {
+
+}
+
 .plan-title1 {
   background-color: #509151;
+  color: white;
 
 }
 
 .plan-title2 {
   background-color: #2B4885;
+  color: white;
+
 }
   
 .plan-title3 {
   background-color:  #101010;
+  color: white;
 
 }
 
@@ -124,7 +141,7 @@ footer {
   padding-top: 15px;
   text-decoration: none;
   text-align: center;
-  color: grey;
+  color:  #E5E5E5;
 
 
 }
