@@ -17,6 +17,8 @@ header {
 
 .header-text li {
   display: inline-block;
+  padding-top: 10px 40px;
+  margin-left: 50px;
 
 }
 
@@ -24,6 +26,7 @@ header {
 
   color: grey;
   text-decoration: none;
+
   
 }
 
@@ -94,6 +97,8 @@ header {
   width: 100%;
   padding: 5px;
   margin: 2px;
+  border-bottom: 20px;
+  border-top: 20px;
 }
 
 .info {
@@ -117,6 +122,11 @@ footer {
   text-align: center;
   color: grey;
 
+
+}
+
+.footer-text a {
+  color: grey;
 }
 
 
