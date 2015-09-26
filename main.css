@@ -48,6 +48,8 @@ header {
 
 .content {
   text-align: center;
+  border-top: 50px;
+  border-bottom: 50px;
 }
 
 
@@ -74,21 +76,22 @@ header {
 }
 
 .plan-title1 {
-  background-color: green;
+  background-color: #509151;
 
 }
 
 .plan-title2 {
-  background-color: blue;
+  background-color: #2B4885;
 }
   
 .plan-title3 {
-  background-color: black;
+  background-color:  #101010;
 
 }
 
 .plan-subtitle {
   border: 1px solid grey;
+  background-color: #F7F7F7;
 
 }
 
@@ -99,6 +102,7 @@ header {
   margin: 2px;
   border-bottom: 20px;
   border-top: 20px;
+  text-align: left;
 }
 
 .info {
@@ -126,7 +130,7 @@ footer {
 }
 
 .footer-text a {
-  color: grey;
+  color: white;
 }
 
 
