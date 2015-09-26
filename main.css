@@ -70,11 +70,6 @@ header {
   float: left
 }
 
-.plan-title {
- 
-
-}
-
 .plan-title1 h4 {
   font-size:  
 
@@ -118,7 +113,9 @@ header {
 }
 
 .plan-subtitle {
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
   background-color: #F7F7F7;
 
 }
