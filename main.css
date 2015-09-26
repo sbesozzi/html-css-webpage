@@ -32,14 +32,14 @@ header {
 .title-image {
   background-image: url("background.jpg");
   background-repeat: none;
-  height: 400px;
+  height: 360px;
   width: 100%;
   background-size: cover;
 }
 
 
 .title-text { 
-  padding-top: 120px;
+  padding-top: 95px;
   text-align: center;
   color: white; 
   font-size: 20px;
@@ -47,6 +47,7 @@ header {
 }  
 
 .content {
+  border: 1px solid red;
   text-align: center;
   border-top: 50px;
   border-bottom: 50px;
@@ -57,7 +58,8 @@ header {
   display: inline-block;
   list-style: none;
   width: 100%;
-  padding: 5px;
+  max-height: 500px;
+  padding-top: 25px;
   margin: 2px;
   
 }
@@ -113,11 +115,22 @@ header {
 }
 
 .plan-subtitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid grey;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   background-color: #F7F7F7;
 
+}
+
+.plan-subtitle-button{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: white;
 }
 
 .infos {
