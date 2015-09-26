@@ -72,64 +72,75 @@ header {
   float: left
 }
 
-.plan-title1 h4 {
-  font-size:  
-
-}
-
-.plan-title h1 {
-  font-size: 20px;
-
-} 
-
-.plan-title h3 {
-  font-style: 
-
-}
-
-.plan-title1 {
-  background-color: #509151;
-  color: white;
-  text-align: center;
+.plan-title {
+  /*text-align: center;*/
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.plan-type {
+  margin: 0px 0px; 
+  font-size: 15px;
+  color: white;
+}
+
+.plan-price {
+  font-size: 80px;
+  color: white;
+}
+
+.plan-month {
+  font-size: 17px;
+  color: #DCDCDC;
+}
+
+
+.plan-title1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #509151;
+  text-align: center;
+
+ 
 
 }
 
 .plan-title2 {
   background-color: #2B4885;
-  color: white;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+
 
 }
   
 .plan-title3 {
   background-color:  #101010;
-  color: white;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  
 
 }
 
 .plan-subtitle {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  border-bottom: 1px solid #C8C8C8;
+  border-left: 1px solid #C8C8C8;
+  border-right: 1px solid #C8C8C8;
   background-color: #F7F7F7;
+  color: #808080;
+  font-size: 14px;
 
 }
 
 .plan-subtitle-button{
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  border-bottom: 1px solid #C8C8C8;
+  border-left: 1px solid #C8C8C8;
+  border-right: 1px solid #C8C8C8;
   background-color: white;
 }
 
