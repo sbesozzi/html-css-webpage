@@ -19,15 +19,13 @@ header {
   display: inline-block;
   padding-top: 10px 40px;
   margin-left: 50px;
+  font-style: left;
 
 }
 
 .header-text li a {
-
   color: grey;
-  text-decoration: none;
-
-  
+  text-decoration: none;  
 }
 
   
@@ -37,13 +35,15 @@ header {
   height: 400px;
   width: 100%;
   background-size: cover;
-
 }
 
+
 .title-text { 
-  padding-top: 160px;
+  padding-top: 120px;
   text-align: center;
   color: white; 
+  font-size: 20px;
+  font-family:'Rubik', sans-serif;
 }  
 
 .content {
@@ -71,38 +71,49 @@ header {
 }
 
 .plan-title {
-  border: 1px solid grey;
-  font-color: white;
+ 
+
 }
 
 .plan-title1 h4 {
-  color: white;
+  font-size:  
 
-}s
+}
 
 .plan-title h1 {
+  font-size: 20px;
 
 } 
 
 .plan-title h3 {
+  font-style: 
 
 }
 
 .plan-title1 {
   background-color: #509151;
   color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
 .plan-title2 {
   background-color: #2B4885;
   color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
   
 .plan-title3 {
   background-color:  #101010;
   color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
