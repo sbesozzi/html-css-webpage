@@ -73,31 +73,33 @@ header {
 }
 
 .plan-title {
-  /*text-align: center;*/
-  padding-top: 20px;
-  padding-bottom: 20px;
+  text-align: center;
+  
+
 }
 
 .plan-type {
-  margin: 0px 0px; 
+  margin-bottom: 0; 
   font-size: 15px;
   color: white;
 }
 
 .plan-price {
-  font-size: 80px;
+  margin: 0 0; 
+  font-size: 85px;
   color: white;
 }
 
 .plan-month {
+  margin-top: 0;
   font-size: 17px;
   color: #DCDCDC;
 }
 
 
 .plan-title1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   background-color: #509151;
   text-align: center;
 
@@ -108,8 +110,8 @@ header {
 .plan-title2 {
   background-color: #2B4885;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 
 
 }
@@ -117,8 +119,8 @@ header {
 .plan-title3 {
   background-color:  #101010;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   
 
 }
@@ -160,6 +162,18 @@ header {
   padding: 5px;
   margin: 50px;
   display: inline-block; 
+}
+
+.info-title {
+  color: #7A7A7A;
+  font-size: 17px;
+
+}
+
+.info-text {
+  color: #808080;
+  font-size: 15px
+
 }
 
 footer {
