@@ -43,13 +43,14 @@ header {
   text-align: center;
   color: white; 
   font-size: 20px;
-  font-family:'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }  
 
 .content {
-  /*text-align: center;*/
   border-top: 50px;
   border-bottom: 50px;
+  display: inline-block;
 
 }
 
@@ -58,7 +59,7 @@ header {
   display: inline-block;
   list-style: none;
   width: 100%;
-  max-height: 500px;
+  margin-bottom: 475px;
   padding-top: 25px;
   margin: 2px;
   text-align: center;
@@ -71,7 +72,8 @@ header {
   width: 250px;
   height: 300px;
   margin: 5px;
-  float: left
+  float: left;
+  margin-bottom: 200px; 
 }
 
 .plan-title {
@@ -147,47 +149,46 @@ header {
   border-right: 1px solid #C8C8C8;
   background-color: white;
 
+
 }
 
 .button {
   border-radius: 30px;
   border: 1px solid #C8C8C8;
   background: white;
-  color: #808080;
-  font-size: 14;
+  color: #808080; 
   text-decoration: none;
+  font-size: 12;
 }
 
 .infos {
   list-style: none;
   width: 100%;
   padding: 5px;
-  margin: 2px;
-  border-bottom: 20px;
-  border-top: 20px;
-  
-  display: inline-block;
-  border-style: 1px solid red;
+  margin: 3px;
 }
 
 .info {
-  width: 25%;
-  height: 50px;
-  padding: 5px;
-  margin: 50px;
-  display: inline-block; 
+  width: 34%;
+  height: auto;
+  padding: 10px;
+  margin: 2px;
+  display: inline-block;
   text-align: left;
 }
 
 .info-title {
+  padding-bottom: 15px;
   color: #7A7A7A;
-  font-size: 17px;
+  font-size: 15px;
+  letter-spacing: 3px;
 
 }
 
 .info-text {
   color: #808080;
-  font-size: 15px
+  font-size: 13px;
+  line-height: 19px;
 
 }
 
