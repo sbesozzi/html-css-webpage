@@ -15,11 +15,19 @@ header {
 
 }
 
+.header-text {
+  margin: 10px;
+  padding-left: 0;
+
+}
+
 .header-text li {
   display: inline-block;
-  padding-top: 10px 40px;
-  margin-left: 50px;
+
+  margin-bottom: 2px;
+  margin-right: 32px;
   font-style: left;
+
 
 }
 
@@ -44,41 +52,42 @@ header {
   color: white; 
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 
 }  
 
 .content {
-  border-top: 50px;
-  border-bottom: 50px;
-  display: inline-block;
-
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  text-align: center;
+ 
+ 
 }
 
 
 .plans {
-  display: inline-block;
   list-style: none;
   width: 100%;
-  margin-bottom: 475px;
+  height: 550px;
+  padding: 5px;
+  margin: 3px;
   padding-top: 25px;
-  margin: 2px;
+  margin-left: 200px;
   text-align: center;
-  border-style: 1px solid red;
   
 }
 
 .plan {
   padding: 10px;
-  width: 250px;
+  width: 20%;
   height: 300px;
   margin: 5px;
   float: left;
   margin-bottom: 200px; 
-}
 
-.plan-title {
-  text-align: center;
-  
+
+
 
 }
 
@@ -86,18 +95,23 @@ header {
   margin-bottom: 0; 
   font-size: 15px;
   color: white;
+  letter-spacing: 3px;
+  
+
 }
 
 .plan-price {
   margin: 0 0; 
   font-size: 85px;
   color: white;
+  
 }
 
 .plan-month {
   margin-top: 0;
   font-size: 17px;
   color: #DCDCDC;
+
 }
 
 
@@ -105,15 +119,10 @@ header {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #509151;
-  text-align: center;
-
- 
-
 }
 
 .plan-title2 {
   background-color: #2B4885;
-  text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
 
@@ -122,7 +131,6 @@ header {
   
 .plan-title3 {
   background-color:  #101010;
-  text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
   
@@ -158,23 +166,30 @@ header {
   background: white;
   color: #808080; 
   text-decoration: none;
-  font-size: 12;
+  font-size: .9em;
+  font-weight: bold;
+
 }
+
+
 
 .infos {
   list-style: none;
   width: 100%;
   padding: 5px;
   margin: 3px;
+  text-align: center;
+
 }
 
 .info {
-  width: 34%;
-  height: auto;
+  width: 32%;
+  height: 160px;
   padding: 10px;
   margin: 2px;
-  display: inline-block;
+  margin-left: 20px;
   text-align: left;
+  display: inline-block;
 }
 
 .info-title {
@@ -182,10 +197,12 @@ header {
   color: #7A7A7A;
   font-size: 15px;
   letter-spacing: 3px;
+  font-weight: bold;
 
 }
 
 .info-text {
+  width: 345px;
   color: #808080;
   font-size: 13px;
   line-height: 19px;
