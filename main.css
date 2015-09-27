@@ -47,10 +47,10 @@ header {
 }  
 
 .content {
-  border: 1px solid red;
-  text-align: center;
+  /*text-align: center;*/
   border-top: 50px;
   border-bottom: 50px;
+
 }
 
 
@@ -61,6 +61,8 @@ header {
   max-height: 500px;
   padding-top: 25px;
   margin: 2px;
+  text-align: center;
+  border-style: 1px solid red;
   
 }
 
@@ -137,13 +139,23 @@ header {
 
 }
 
-.plan-subtitle-button{
+.plan-subtitle-button {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #C8C8C8;
   border-left: 1px solid #C8C8C8;
   border-right: 1px solid #C8C8C8;
   background-color: white;
+
+}
+
+.button {
+  border-radius: 30px;
+  border: 1px solid #C8C8C8;
+  background: white;
+  color: #808080;
+  font-size: 14;
+  text-decoration: none;
 }
 
 .infos {
@@ -153,7 +165,9 @@ header {
   margin: 2px;
   border-bottom: 20px;
   border-top: 20px;
-  text-align: left;
+  
+  display: inline-block;
+  border-style: 1px solid red;
 }
 
 .info {
@@ -162,6 +176,7 @@ header {
   padding: 5px;
   margin: 50px;
   display: inline-block; 
+  text-align: left;
 }
 
 .info-title {
