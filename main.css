@@ -27,8 +27,6 @@ header {
   margin-bottom: 2px;
   margin-right: 32px;
   font-style: left;
-
-
 }
 
 .header-text li a {
@@ -182,7 +180,14 @@ header {
 
 }
 
+.button li a {
+  color: grey;
+  text-decoration: none;  
+  }
 
+.button li a:hover {
+  color: black;
+}
 
 .infos {
   list-style: none;
@@ -239,5 +244,10 @@ footer {
 .footer-text a {
   color: white;
 }
+
+.footer-text a:hover {
+  color: grey;
+}
+
 
 
