@@ -34,6 +34,11 @@ header {
 .header-text li a {
   color: grey;
   text-decoration: none;  
+
+}
+
+.header-text li a:hover {
+  color: black;
 }
 
   
@@ -88,23 +93,23 @@ header {
   margin: 5px;
   float: left;
   margin-bottom: 200px; 
-
-
-
-
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
 }
 
 .plan-type {
   margin-bottom: 0; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   font-size: 15px;
   color: white;
   letter-spacing: 3px;
-  
-
 }
 
 .plan-price {
   margin: 0 0; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   font-size: 85px;
   color: white;
   
@@ -113,7 +118,10 @@ header {
 .plan-month {
   margin-top: 0;
   font-size: 17px;
-  color: #DCDCDC;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-weight: lighter;
+  color: #D4D4D4;
 
 }
 
@@ -167,7 +175,7 @@ header {
   border-radius: 30px;
   border: 1px solid #C8C8C8;
   background: white;
-  color: #808080; 
+  color: #4C4C4C;
   text-decoration: none;
   font-size: .9em;
   font-weight: bold;
